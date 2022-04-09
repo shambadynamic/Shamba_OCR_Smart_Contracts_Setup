@@ -2,7 +2,7 @@
 pragma solidity ^0.7.0;
 
 import "./AccessControllerInterface.sol";
-import "./LinkTokenInterface.sol";
+import "@chainlink/contracts/src/v0.7/interfaces/LinkTokenInterface.sol";
 import "./Owned.sol";
 
 /**
