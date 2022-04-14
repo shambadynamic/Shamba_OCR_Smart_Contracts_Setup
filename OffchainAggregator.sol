@@ -2,9 +2,9 @@
 pragma solidity ^0.7.0;
 
 import "./AccessControllerInterface.sol";
-import "@chainlink/contracts/src/v0.7/interfaces/AggregatorV2V3Interface.sol";
+import "./AggregatorV2V3Interface.sol";
 import "./AggregatorValidatorInterface.sol";
-import "@chainlink/contracts/src/v0.7/interfaces/LinkTokenInterface.sol";
+import "./LinkTokenInterface.sol";
 import "./Owned.sol";
 import "./OffchainAggregatorBilling.sol";
 
